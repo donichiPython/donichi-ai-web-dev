@@ -1,12 +1,13 @@
-# donichi-ai
+# donichi-ai-web
 
 ## 概要
 
-シェル上で動く対話式アプリケーションで、プログラミング教育用のプロトタイプです。
+Web上で動く対話式アプリケーションで、プログラミング教育用のプロトタイプです。
 
 ## 環境
 
 - Python 3系  
+- django 1.10 (執筆時点)
 - [Mecab](http://taku910.github.io/mecab/)
 
 ## 動かし方
@@ -19,14 +20,17 @@
 ### 起動
 
 ```console
-$ git clone https://github.com/donichiPython/donichi-ai.git
-$ cd donichi-ai
-$ python main.py
+$ git clone https://github.com/donichiPython/donichi-ai-web.git
+$ cd donichi-ai-web
+$ python manage.py runserver 0.0.0.0:80
 ```
+### ブラウザからアクセス
+
+Webブラウザを起動し、http://localhost にアクセス
 
 ### 終了
 
-`ありがとう` と入力すれば終了します。
+サーバーを終了する場合は、コンソールで「Control＋C」を入力
 
 ## 機能
 
