@@ -6,7 +6,7 @@ from ai.morpheme_analyzer import MorphemeAnalyzer
 from ai.fixed_phrase import FixedPhrase
 
 class Ai:
-    def ai(input_text):
+    def nanako_answer(input_text):
         import_text = ImportText('library/import.txt')
         fixed_phrase = FixedPhrase('library/pattern.csv')
         morpheme_analyzer = MorphemeAnalyzer()
